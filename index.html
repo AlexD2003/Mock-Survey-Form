@@ -10,6 +10,7 @@
       <p class="thanks-footer" id="description">Thanks for the visit!</p>
       <form class="survey-form" id="survey-form">
         <fieldset id="info-fieldset">
+          <legend>Personal Information</legend>
           <label id="name-label" for="name">Name<input class="inline" id="name" type="text" placeholder="Enter your name" required></input></label>
           <label id="email-label" for="email">Email<input class="inline" id="email" type="email" placeholder="Enter your email" required></input></label>
           <label id="number-label" for="age">Age(optional)<input id="number" class="inline" placeholder="Enter your age (optional)" type="number" min="12" max="120"></input></label>
@@ -28,7 +29,7 @@
           <label class="gender-label" for="gender"><input type="radio" name="gender" id="gender-female" class="inline" value="female"></input>Female</label>
           <label class="gender-label" for="gender"><input type="radio" name="gender" id="gender-other" class="inline" value="other"></input>Other</label>
           </fieldset>
-          <fieldset id="fav-food">
+          <fieldset class="checkbox" id="fav-food">
             <legend>What is your favorite food?</legend>
             <label  for="food-option"><input  id="pizza" type="checkbox" value="pizza" checked>Pizza</input><label>
               <label  for="food-option"><input  id="sushi" type="checkbox" value="sushi">Sushi</input><label>
@@ -38,7 +39,7 @@
           </fieldset>
           <fieldset id="additional-remarks">
             <legend>Additional</legend>
-            <textarea id="remarks-textarea" placeholder="Any ideas or remarks?"></textarea>
+            <textarea class="text-area" id="remarks-textarea" placeholder="Any ideas or remarks?"></textarea>
           </fieldset>
           <input type="submit" id="submit"></input>
       </form>

@@ -1,7 +1,9 @@
+
+
 header,body{
     background-color: #f4f4f4;
     font-family: cursive;
-
+    color: #121414d7;
 }
 .title{
     text-align: center;
@@ -13,15 +15,100 @@ header,body{
     color: #0a0202;
     font-size: 20px;
 }
+
 .survey-form{
     display: block;
     text-align: left;
     width: 30%;
     margin:auto;
+    margin-top: 40px;
     padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    border: 3px solid rgba(121, 68, 126, 0.5);
+
 }
 label{
     display: block;
+    font-size: medium;
+}
+input{
+    background: rgba(121, 68, 126, 0.5);
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="checkbox"]{
+    display: inline;
+    margin-top: 10px;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -20px;
+}
+input[type="submit"]{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+input[id="name"],input[id="email"]{
+    width: 100%;
+}
+label[id="name-label"],label[id="email-label"],label[id="number-label"]{
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+label[id="number-label"]{
+    margin-bottom: -10px;
+}
+select[id="dropdown"]{
+    width: 100%;
+    background: rgba(121, 68, 126, 0.5);
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+}
+input[id="number"]{
+    width: 100%;
+}
+select[id="dropdown"]{
+    margin-top: 26px;
+    width: auto;
+    
+}  
+.gender-label{
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+}
+input[type="radio"]{
+    display: inline;
+}
+fieldset[id="additional-remarks"]{
+    height: 90px;
+}
+
+.text-area{
+    background: rgba(121, 68, 126, 0.5);
+    width: 100%;
+    height: 100%;
+}
+fieldset{
+    border: none;
+}
+form{
+    border-radius: 23px;
+    border-width: auto ;
+}
+header,body{
+    background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-size: cover;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    background: rgba(175, 100, 182, 0.5);
 }
