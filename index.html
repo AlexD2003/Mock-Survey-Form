@@ -10,9 +10,23 @@
       <p id="description">Thanks for the visit!</p>
       <form id="survey-form">
         <fieldset>
-          <label for="name">Name<input class="inline" id="name" type="text" placeholder="Enter your name" required></input></label>
-          <label for="email">Email<input class="inline" id="email" type="email" placeholder="Enter your email" required></input></label>
-          <label for="age">Age (optional)<input id="age" class="inline" placeholder="Enter your age (optional)" type="number" min="12" max="120"></input></label>
+          <label id="name-label" for="name">Name<input class="inline" id="name" type="text" placeholder="Enter your name" required></input></label>
+          <label id="email-label" for="email">Email<input class="inline" id="email" type="email" placeholder="Enter your email" required></input></label>
+          <label id="number-label" for="age">Age(optional)<input id="number" class="inline" placeholder="Enter your age (optional)" type="number" min="12" max="120"></input></label>
+          <select id="dropdown" required>
+            <option value="">What is your highest level of education?</option>
+            <option value="1">High School</option>
+            <option value="2">Bachelors</option>
+            <option value="3">Masters</option>
+            <option value="4">PHD</option>
+            <option value="5">Other</option>
+          </select>
+          <fieldset class="gender-field">
+            <legend>Gender(required)</legend>
+          <label class="gender-label" for="gender"><input type="radio" name="gender" id="gender-male" class="inline" checked value="male"></input>Male</label>
+          <label class="gender-label" for="gender"><input type="radio" name="gender" id="gender-female" class="inline" value="female"></input>Female</label>
+          <label class="gender-label" for="gender"><input type="radio" name="gender" id="gender-other" class="inline" value="other"></input>Other</label>
+          </fieldset>
         </fieldset>
       </form>
     </body>
