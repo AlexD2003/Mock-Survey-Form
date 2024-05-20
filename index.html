@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    
-    <p>This is a basic HTML site.</p>
-    
-    <!-- Add your content here -->
-    
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Mock Survey Form<h1>
+      <p id="description">Thanks for the visit!</p>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name">Name<input class="inline" id="name" type="text" placeholder="Enter your name" required></input></label>
+          <label for="email">Email<input class="inline" id="email" type="email" placeholder="Enter your email" required></input></label>
+          <label for="age">Age (optional)<input id="age" class="inline" placeholder="Enter your age (optional)" type="number" min="12" max="120"></input></label>
+        </fieldset>
+      </form>
+    </body>
+    <footer></footer>
 </html>
