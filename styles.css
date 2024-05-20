@@ -1,0 +1,27 @@
+header,body{
+    background-color: #f4f4f4;
+    font-family: cursive;
+
+}
+.title{
+    text-align: center;
+    color: #0a0202;
+}
+.thanks-footer{
+    margin-top: -25px;
+    text-align: center;
+    color: #0a0202;
+    font-size: 20px;
+}
+.survey-form{
+    display: block;
+    text-align: left;
+    width: 30%;
+    margin:auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+label{
+    display: block;
+}
